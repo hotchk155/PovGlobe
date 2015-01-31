@@ -16777,35 +16777,35 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="IC4" library="atmel" deviceset="MEGA8" device="-AI"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X6" device=""/>
-<part name="U$1" library="jasons_stuff" deviceset="TAG_CONN_AVR" device=""/>
-<part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49U-V"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="IC1" library="atmel" deviceset="MEGA8" device="-AI"/>
+<part name="SERIALPROG" library="pinhead" deviceset="PINHD-1X6" device=""/>
+<part name="ICSP" library="jasons_stuff" deviceset="TAG_CONN_AVR" device=""/>
+<part name="X1" library="crystal" deviceset="CRYSTAL" device="HC49U-V"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="SUPPLY3" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="S1" library="jason_eagle6" deviceset="3144HALLSWITCH" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="SUPPLY5" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="IC5" library="burr-brown" deviceset="REG1117" device=""/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="IC2" library="burr-brown" deviceset="REG1117" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="+5V" device=""/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C10" library="rcl" deviceset="CPOL-EU" device="E2-5"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C13" library="rcl" deviceset="CPOL-EU" device="E2-5"/>
 <part name="C11" library="rcl" deviceset="CPOL-EU" device="E2-5"/>
 <part name="C12" library="rcl" deviceset="CPOL-EU" device="E2-5"/>
-<part name="C13" library="rcl" deviceset="CPOL-EU" device="E2-5"/>
+<part name="C14" library="rcl" deviceset="CPOL-EU" device="E2-5"/>
 <part name="SUPPLY9" library="supply2" deviceset="+12V" device=""/>
-<part name="S2" library="switch-omron" deviceset="10-XX" device=""/>
-<part name="S3" library="switch-omron" deviceset="10-XX" device=""/>
-<part name="S4" library="switch-omron" deviceset="10-XX" device=""/>
+<part name="A" library="switch-omron" deviceset="10-XX" device=""/>
+<part name="B" library="switch-omron" deviceset="10-XX" device=""/>
+<part name="C" library="switch-omron" deviceset="10-XX" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
-<part name="LED25" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R26" library="resistor" deviceset="R-EU_" device="R0805"/>
+<part name="DIAG" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0805"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="0" library="jason_eagle6" deviceset="3MMLEDSIDE" device="LED1_8MMSIDE"/>
@@ -16848,19 +16848,19 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="37" library="jason_eagle6" deviceset="3MMLEDSIDE" device="LED1_8MMSIDE"/>
 <part name="38" library="jason_eagle6" deviceset="3MMLEDSIDE" device="LED1_8MMSIDE"/>
 <part name="39" library="jason_eagle6" deviceset="3MMLEDSIDE" device="LED1_8MMSIDE"/>
-<part name="IC1" library="SparkFun" deviceset="74*595" device=""/>
+<part name="IC3" library="SparkFun" deviceset="74*595" device=""/>
 <part name="RN1" library="resistor-array" deviceset="741-8" device=""/>
 <part name="RN2" library="resistor-array" deviceset="741-8" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="SUPPLY1" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="IC2" library="SparkFun" deviceset="74*595" device=""/>
+<part name="IC4" library="SparkFun" deviceset="74*595" device=""/>
 <part name="RN3" library="resistor-array" deviceset="741-8" device=""/>
 <part name="RN4" library="resistor-array" deviceset="741-8" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="SUPPLY15" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
-<part name="IC3" library="SparkFun" deviceset="74*595" device=""/>
+<part name="IC5" library="SparkFun" deviceset="74*595" device=""/>
 <part name="RN5" library="resistor-array" deviceset="741-8" device=""/>
 <part name="RN6" library="resistor-array" deviceset="741-8" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805"/>
@@ -16869,13 +16869,13 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="IC6" library="SparkFun" deviceset="74*595" device=""/>
 <part name="RN7" library="resistor-array" deviceset="741-8" device=""/>
 <part name="RN8" library="resistor-array" deviceset="741-8" device=""/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="SUPPLY19" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="IC7" library="SparkFun" deviceset="74*595" device=""/>
 <part name="RN9" library="resistor-array" deviceset="741-8" device=""/>
 <part name="RN10" library="resistor-array" deviceset="741-8" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="SUPPLY21" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
@@ -16889,35 +16889,35 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <plain>
 </plain>
 <instances>
-<instance part="IC4" gate="G$1" x="-76.2" y="38.1"/>
-<instance part="JP1" gate="A" x="-10.16" y="43.18" rot="MR180"/>
-<instance part="U$1" gate="G$1" x="-10.16" y="5.08"/>
-<instance part="Q1" gate="G$1" x="-104.14" y="43.18" rot="R90"/>
-<instance part="C4" gate="G$1" x="-111.76" y="48.26" rot="R90"/>
-<instance part="C5" gate="G$1" x="-111.76" y="38.1" rot="R90"/>
+<instance part="IC1" gate="G$1" x="-76.2" y="38.1"/>
+<instance part="SERIALPROG" gate="A" x="-10.16" y="43.18" rot="MR180"/>
+<instance part="ICSP" gate="G$1" x="-10.16" y="5.08"/>
+<instance part="X1" gate="G$1" x="-104.14" y="43.18" rot="R90"/>
+<instance part="C9" gate="G$1" x="-111.76" y="48.26" rot="R90"/>
+<instance part="C10" gate="G$1" x="-111.76" y="38.1" rot="R90"/>
 <instance part="SUPPLY3" gate="+5V" x="-132.08" y="68.58"/>
 <instance part="SUPPLY4" gate="GND" x="-119.38" y="-12.7"/>
 <instance part="S1" gate="G$1" x="-154.94" y="43.18"/>
 <instance part="C6" gate="G$1" x="-127" y="43.18" rot="R90"/>
 <instance part="SUPPLY5" gate="+5V" x="-175.26" y="71.12"/>
 <instance part="SUPPLY6" gate="GND" x="-175.26" y="33.02"/>
-<instance part="C7" gate="G$1" x="-175.26" y="43.18" rot="R180"/>
-<instance part="IC5" gate="G$1" x="-182.88" y="7.62"/>
+<instance part="C15" gate="G$1" x="-175.26" y="43.18" rot="R180"/>
+<instance part="IC2" gate="G$1" x="-182.88" y="7.62"/>
 <instance part="SUPPLY7" gate="GND" x="-182.88" y="-12.7"/>
 <instance part="SUPPLY8" gate="+5V" x="-160.02" y="17.78"/>
 <instance part="C8" gate="G$1" x="-167.64" y="0" rot="R180"/>
-<instance part="C9" gate="G$1" x="-198.12" y="0" rot="R180"/>
-<instance part="C10" gate="G$1" x="-205.74" y="2.54"/>
+<instance part="C7" gate="G$1" x="-198.12" y="0" rot="R180"/>
+<instance part="C13" gate="G$1" x="-205.74" y="2.54"/>
 <instance part="C11" gate="G$1" x="-210.82" y="2.54"/>
 <instance part="C12" gate="G$1" x="-215.9" y="2.54"/>
-<instance part="C13" gate="G$1" x="-160.02" y="2.54"/>
+<instance part="C14" gate="G$1" x="-160.02" y="2.54"/>
 <instance part="SUPPLY9" gate="+12V" x="-215.9" y="17.78"/>
-<instance part="S2" gate="1" x="-208.28" y="68.58" rot="R270"/>
-<instance part="S3" gate="1" x="-208.28" y="55.88" rot="R270"/>
-<instance part="S4" gate="1" x="-208.28" y="43.18" rot="R270"/>
+<instance part="A" gate="1" x="-208.28" y="68.58" rot="R270"/>
+<instance part="B" gate="1" x="-208.28" y="55.88" rot="R270"/>
+<instance part="C" gate="1" x="-208.28" y="43.18" rot="R270"/>
 <instance part="SUPPLY10" gate="GND" x="-218.44" y="33.02"/>
-<instance part="LED25" gate="G$1" x="-144.78" y="-2.54"/>
-<instance part="R26" gate="G$1" x="-144.78" y="7.62" rot="R270"/>
+<instance part="DIAG" gate="G$1" x="-144.78" y="-2.54"/>
+<instance part="R1" gate="G$1" x="-144.78" y="7.62" rot="R270"/>
 <instance part="SUPPLY11" gate="GND" x="-144.78" y="-12.7"/>
 <instance part="SUPPLY14" gate="GND" x="109.22" y="-121.92"/>
 <instance part="0" gate="G$1" x="99.06" y="83.82"/>
@@ -16960,19 +16960,19 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <instance part="37" gate="G$1" x="99.06" y="-111.76"/>
 <instance part="38" gate="G$1" x="99.06" y="-114.3"/>
 <instance part="39" gate="G$1" x="99.06" y="-116.84"/>
-<instance part="IC1" gate="A" x="55.88" y="76.2"/>
+<instance part="IC3" gate="A" x="55.88" y="76.2"/>
 <instance part="RN1" gate="G$1" x="86.36" y="81.28" rot="MR0"/>
 <instance part="RN2" gate="G$1" x="86.36" y="71.12" rot="MR0"/>
 <instance part="C1" gate="G$1" x="35.56" y="93.98" rot="R90"/>
 <instance part="SUPPLY1" gate="+5V" x="73.66" y="99.06"/>
 <instance part="SUPPLY2" gate="GND" x="30.48" y="58.42"/>
-<instance part="IC2" gate="A" x="55.88" y="30.48"/>
+<instance part="IC4" gate="A" x="55.88" y="30.48"/>
 <instance part="RN3" gate="G$1" x="86.36" y="35.56" rot="MR0"/>
 <instance part="RN4" gate="G$1" x="86.36" y="25.4" rot="MR0"/>
 <instance part="C2" gate="G$1" x="35.56" y="48.26" rot="R90"/>
 <instance part="SUPPLY15" gate="+5V" x="73.66" y="53.34"/>
 <instance part="SUPPLY16" gate="GND" x="30.48" y="12.7"/>
-<instance part="IC3" gate="A" x="55.88" y="-15.24"/>
+<instance part="IC5" gate="A" x="55.88" y="-15.24"/>
 <instance part="RN5" gate="G$1" x="86.36" y="-10.16" rot="MR0"/>
 <instance part="RN6" gate="G$1" x="86.36" y="-20.32" rot="MR0"/>
 <instance part="C3" gate="G$1" x="35.56" y="2.54" rot="R90"/>
@@ -16981,13 +16981,13 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <instance part="IC6" gate="A" x="55.88" y="-60.96"/>
 <instance part="RN7" gate="G$1" x="86.36" y="-55.88" rot="MR0"/>
 <instance part="RN8" gate="G$1" x="86.36" y="-66.04" rot="MR0"/>
-<instance part="C14" gate="G$1" x="35.56" y="-43.18" rot="R90"/>
+<instance part="C4" gate="G$1" x="35.56" y="-43.18" rot="R90"/>
 <instance part="SUPPLY19" gate="+5V" x="73.66" y="-38.1"/>
 <instance part="SUPPLY20" gate="GND" x="30.48" y="-78.74"/>
 <instance part="IC7" gate="A" x="55.88" y="-106.68"/>
 <instance part="RN9" gate="G$1" x="86.36" y="-101.6" rot="MR0"/>
 <instance part="RN10" gate="G$1" x="86.36" y="-111.76" rot="MR0"/>
-<instance part="C15" gate="G$1" x="35.56" y="-88.9" rot="R90"/>
+<instance part="C5" gate="G$1" x="35.56" y="-88.9" rot="R90"/>
 <instance part="SUPPLY21" gate="+5V" x="73.66" y="-83.82"/>
 <instance part="SUPPLY22" gate="GND" x="30.48" y="-124.46"/>
 <instance part="SUPPLY23" gate="GND" x="109.22" y="60.96"/>
@@ -17001,29 +17001,29 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <nets>
 <net name="+5V" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="AREF"/>
+<pinref part="IC1" gate="G$1" pin="AREF"/>
 <wire x1="-99.06" y1="55.88" x2="-132.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="55.88" x2="-132.08" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="AVCC"/>
+<pinref part="IC1" gate="G$1" pin="AVCC"/>
 <wire x1="-132.08" y1="53.34" x2="-132.08" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="43.18" x2="-132.08" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="27.94" x2="-132.08" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="25.4" x2="-132.08" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-99.06" y1="53.34" x2="-132.08" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-132.08" y="53.34"/>
-<pinref part="IC4" gate="G$1" pin="VCC@1"/>
+<pinref part="IC1" gate="G$1" pin="VCC@1"/>
 <wire x1="-99.06" y1="27.94" x2="-132.08" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-132.08" y="27.94"/>
-<pinref part="IC4" gate="G$1" pin="VCC@2"/>
+<pinref part="IC1" gate="G$1" pin="VCC@2"/>
 <wire x1="-99.06" y1="25.4" x2="-132.08" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-132.08" y="25.4"/>
 <wire x1="-132.08" y1="22.86" x2="-132.08" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="SERIALPROG" gate="A" pin="4"/>
 <wire x1="-12.7" y1="43.18" x2="-20.32" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="43.18" x2="-20.32" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="25.4" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="ICSP" gate="G$1" pin="VCC"/>
 <wire x1="12.7" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="-5.08" x2="12.7" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-5.08" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
@@ -17037,7 +17037,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="+5V" pin="+5V"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="-175.26" y1="68.58" x2="-175.26" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="66.04" x2="-175.26" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="50.8" x2="-175.26" y2="48.26" width="0.1524" layer="91"/>
@@ -17048,7 +17048,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="-170.18" y1="45.72" x2="-165.1" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="VOUT"/>
+<pinref part="IC2" gate="G$1" pin="VOUT"/>
 <pinref part="SUPPLY8" gate="+5V" pin="+5V"/>
 <wire x1="-170.18" y1="7.62" x2="-167.64" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="7.62" x2="-160.02" y2="7.62" width="0.1524" layer="91"/>
@@ -17056,17 +17056,17 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="-167.64" y1="5.08" x2="-167.64" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-167.64" y="7.62"/>
-<pinref part="C13" gate="G$1" pin="+"/>
+<pinref part="C14" gate="G$1" pin="+"/>
 <wire x1="-160.02" y1="5.08" x2="-160.02" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-160.02" y="7.62"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="A" pin="VCC"/>
+<pinref part="IC3" gate="A" pin="VCC"/>
 <wire x1="71.12" y1="86.36" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="86.36" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="SCL"/>
+<pinref part="IC3" gate="A" pin="SCL"/>
 <wire x1="43.18" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="78.74" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
@@ -17076,12 +17076,12 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="73.66" y="93.98"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="VCC"/>
+<pinref part="IC4" gate="A" pin="VCC"/>
 <wire x1="71.12" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="SCL"/>
+<pinref part="IC4" gate="A" pin="SCL"/>
 <wire x1="43.18" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="33.02" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
@@ -17091,12 +17091,12 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="73.66" y="48.26"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="VCC"/>
+<pinref part="IC5" gate="A" pin="VCC"/>
 <wire x1="71.12" y1="-5.08" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-5.08" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="SCL"/>
+<pinref part="IC5" gate="A" pin="SCL"/>
 <wire x1="43.18" y1="2.54" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-12.7" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-12.7" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
@@ -17109,7 +17109,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="IC6" gate="A" pin="VCC"/>
 <wire x1="71.12" y1="-50.8" x2="73.66" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-50.8" x2="73.66" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="-43.18" x2="43.18" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="A" pin="SCL"/>
 <wire x1="43.18" y1="-43.18" x2="40.64" y2="-43.18" width="0.1524" layer="91"/>
@@ -17124,7 +17124,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="IC7" gate="A" pin="VCC"/>
 <wire x1="71.12" y1="-96.52" x2="73.66" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-96.52" x2="73.66" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="-88.9" x2="43.18" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="A" pin="SCL"/>
 <wire x1="43.18" y1="-88.9" x2="40.64" y2="-88.9" width="0.1524" layer="91"/>
@@ -17138,10 +17138,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="-99.06" y1="58.42" x2="-119.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="58.42" x2="-119.38" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="-119.38" y1="48.26" x2="-119.38" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="43.18" x2="-119.38" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="38.1" x2="-119.38" y2="33.02" width="0.1524" layer="91"/>
@@ -17149,25 +17149,25 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="-119.38" y1="30.48" x2="-119.38" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="48.26" x2="-119.38" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-119.38" y="48.26"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="-114.3" y1="38.1" x2="-119.38" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-119.38" y="38.1"/>
-<pinref part="IC4" gate="G$1" pin="GND@1"/>
+<pinref part="IC1" gate="G$1" pin="GND@1"/>
 <wire x1="-99.06" y1="33.02" x2="-119.38" y2="33.02" width="0.1524" layer="91"/>
 <junction x="-119.38" y="33.02"/>
-<pinref part="IC4" gate="G$1" pin="GND@2"/>
+<pinref part="IC1" gate="G$1" pin="GND@2"/>
 <wire x1="-99.06" y1="30.48" x2="-119.38" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-119.38" y="30.48"/>
 <wire x1="-119.38" y1="22.86" x2="-119.38" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="ICSP" gate="G$1" pin="GND"/>
 <wire x1="7.62" y1="2.54" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="2.54" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="22.86" x2="-22.86" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="SERIALPROG" gate="A" pin="6"/>
 <wire x1="-22.86" y1="45.72" x2="-22.86" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="48.26" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="SERIALPROG" gate="A" pin="5"/>
 <wire x1="-12.7" y1="45.72" x2="-22.86" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-22.86" y="45.72"/>
 <wire x1="-119.38" y1="-2.54" x2="15.24" y2="-2.54" width="0.1524" layer="91"/>
@@ -17188,7 +17188,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="S1" gate="G$1" pin="GND"/>
 <wire x1="-165.1" y1="43.18" x2="-170.18" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="43.18" x2="-170.18" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <wire x1="-175.26" y1="40.64" x2="-175.26" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="38.1" x2="-175.26" y2="35.56" width="0.1524" layer="91"/>
@@ -17196,7 +17196,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="-175.26" y="38.1"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="-182.88" y1="-5.08" x2="-182.88" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="-"/>
@@ -17205,7 +17205,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="-215.9" y1="-5.08" x2="-215.9" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-215.9" y1="-7.62" x2="-210.82" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-182.88" y="-7.62"/>
-<pinref part="C13" gate="G$1" pin="-"/>
+<pinref part="C14" gate="G$1" pin="-"/>
 <wire x1="-210.82" y1="-7.62" x2="-205.74" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-205.74" y1="-7.62" x2="-198.12" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-198.12" y1="-7.62" x2="-182.88" y2="-7.62" width="0.1524" layer="91"/>
@@ -17218,21 +17218,21 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="C11" gate="G$1" pin="-"/>
 <wire x1="-210.82" y1="-2.54" x2="-210.82" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-210.82" y="-7.62"/>
-<pinref part="C10" gate="G$1" pin="-"/>
+<pinref part="C13" gate="G$1" pin="-"/>
 <wire x1="-205.74" y1="-2.54" x2="-205.74" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-205.74" y="-7.62"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="-198.12" y1="-2.54" x2="-198.12" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-198.12" y="-7.62"/>
 </segment>
 <segment>
-<pinref part="S4" gate="1" pin="P"/>
+<pinref part="C" gate="1" pin="P"/>
 <wire x1="-213.36" y1="43.18" x2="-218.44" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-218.44" y1="43.18" x2="-218.44" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="S2" gate="1" pin="P"/>
+<pinref part="A" gate="1" pin="P"/>
 <wire x1="-218.44" y1="55.88" x2="-218.44" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-218.44" y1="68.58" x2="-213.36" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="S3" gate="1" pin="P"/>
+<pinref part="B" gate="1" pin="P"/>
 <wire x1="-213.36" y1="55.88" x2="-218.44" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-218.44" y="55.88"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
@@ -17241,7 +17241,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<pinref part="LED25" gate="G$1" pin="C"/>
+<pinref part="DIAG" gate="G$1" pin="C"/>
 <wire x1="-144.78" y1="-10.16" x2="-144.78" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -17286,7 +17286,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="101.6" y="-116.84"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="A" pin="GND"/>
+<pinref part="IC3" gate="A" pin="GND"/>
 <wire x1="45.72" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="63.5" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -17296,7 +17296,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="30.48" y="63.5"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="GND"/>
+<pinref part="IC4" gate="A" pin="GND"/>
 <wire x1="45.72" y1="17.78" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="17.78" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -17306,7 +17306,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="30.48" y="17.78"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="GND"/>
+<pinref part="IC5" gate="A" pin="GND"/>
 <wire x1="45.72" y1="-27.94" x2="30.48" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-27.94" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -17319,7 +17319,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="IC6" gate="A" pin="GND"/>
 <wire x1="45.72" y1="-73.66" x2="30.48" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-73.66" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="-43.18" x2="33.02" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 <wire x1="30.48" y1="-76.2" x2="30.48" y2="-73.66" width="0.1524" layer="91"/>
@@ -17329,7 +17329,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="IC7" gate="A" pin="GND"/>
 <wire x1="45.72" y1="-119.38" x2="30.48" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-119.38" x2="30.48" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="-88.9" x2="33.02" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 <wire x1="30.48" y1="-121.92" x2="30.48" y2="-119.38" width="0.1524" layer="91"/>
@@ -17508,21 +17508,21 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <segment>
 <label x="-40.64" y="27.94" size="1.778" layer="95"/>
 <wire x1="-48.26" y1="27.94" x2="-40.64" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="PD5(T1)"/>
+<pinref part="IC1" gate="G$1" pin="PD5(T1)"/>
 <wire x1="-50.8" y1="27.94" x2="-48.26" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="A" pin="RCK"/>
+<pinref part="IC3" gate="A" pin="RCK"/>
 <wire x1="45.72" y1="73.66" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="33.02" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="RCK"/>
+<pinref part="IC4" gate="A" pin="RCK"/>
 <wire x1="45.72" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 <label x="33.02" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="RCK"/>
+<pinref part="IC5" gate="A" pin="RCK"/>
 <wire x1="45.72" y1="-17.78" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
 <label x="33.02" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -17541,21 +17541,21 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <segment>
 <label x="-40.64" y="30.48" size="1.778" layer="95"/>
 <wire x1="-48.26" y1="30.48" x2="-40.64" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="PD4(XCK/T0)"/>
+<pinref part="IC1" gate="G$1" pin="PD4(XCK/T0)"/>
 <wire x1="-50.8" y1="30.48" x2="-48.26" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="A" pin="SCK"/>
+<pinref part="IC3" gate="A" pin="SCK"/>
 <wire x1="45.72" y1="81.28" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
 <label x="33.02" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="SCK"/>
+<pinref part="IC4" gate="A" pin="SCK"/>
 <wire x1="45.72" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
 <label x="33.02" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="SCK"/>
+<pinref part="IC5" gate="A" pin="SCK"/>
 <wire x1="45.72" y1="-10.16" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
 <label x="33.02" y="-10.16" size="1.778" layer="95"/>
 </segment>
@@ -17574,11 +17574,11 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <segment>
 <label x="-40.64" y="60.96" size="1.778" layer="95"/>
 <wire x1="-48.26" y1="60.96" x2="-40.64" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="PC1(ADC1)"/>
+<pinref part="IC1" gate="G$1" pin="PC1(ADC1)"/>
 <wire x1="-50.8" y1="60.96" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="SER"/>
+<pinref part="IC4" gate="A" pin="SER"/>
 <wire x1="45.72" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 <label x="33.02" y="40.64" size="1.778" layer="95"/>
 </segment>
@@ -17587,11 +17587,11 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <segment>
 <label x="-40.64" y="58.42" size="1.778" layer="95"/>
 <wire x1="-48.26" y1="58.42" x2="-40.64" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="PC2(ADC2)"/>
+<pinref part="IC1" gate="G$1" pin="PC2(ADC2)"/>
 <wire x1="-50.8" y1="58.42" x2="-48.26" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="SER"/>
+<pinref part="IC5" gate="A" pin="SER"/>
 <wire x1="45.72" y1="-5.08" x2="40.64" y2="-5.08" width="0.1524" layer="91"/>
 <label x="33.02" y="-5.08" size="1.778" layer="95"/>
 </segment>
@@ -17600,55 +17600,55 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <segment>
 <label x="-40.64" y="63.5" size="1.778" layer="95"/>
 <wire x1="-48.26" y1="63.5" x2="-40.64" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="PC0(ADC0)"/>
+<pinref part="IC1" gate="G$1" pin="PC0(ADC0)"/>
 <wire x1="-50.8" y1="63.5" x2="-48.26" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="A" pin="SER"/>
+<pinref part="IC3" gate="A" pin="SER"/>
 <wire x1="45.72" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
 <label x="33.02" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="PD1(TXD)"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="PD1(TXD)"/>
+<pinref part="SERIALPROG" gate="A" pin="2"/>
 <wire x1="-50.8" y1="38.1" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="PD0(RXD)"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="IC1" gate="G$1" pin="PD0(RXD)"/>
+<pinref part="SERIALPROG" gate="A" pin="3"/>
 <wire x1="-50.8" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="PB4(MISO)"/>
-<pinref part="U$1" gate="G$1" pin="MISO"/>
+<pinref part="IC1" gate="G$1" pin="PB4(MISO)"/>
+<pinref part="ICSP" gate="G$1" pin="MISO"/>
 <wire x1="-50.8" y1="7.62" x2="-22.86" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<pinref part="IC1" gate="G$1" pin="PB3(MOSI/OC2)"/>
 <wire x1="-50.8" y1="10.16" x2="-20.32" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="10.16" x2="-20.32" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="MOSI"/>
+<pinref part="ICSP" gate="G$1" pin="MOSI"/>
 <wire x1="10.16" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="SERIALPROG" gate="A" pin="1"/>
 <wire x1="-12.7" y1="35.56" x2="-25.4" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="35.56" x2="-25.4" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="RESET"/>
+<pinref part="ICSP" gate="G$1" pin="RESET"/>
 <wire x1="-25.4" y1="2.54" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="PC6(/RESET)"/>
+<pinref part="IC1" gate="G$1" pin="PC6(/RESET)"/>
 <wire x1="-99.06" y1="63.5" x2="-101.6" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="63.5" x2="-134.62" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="63.5" x2="-134.62" y2="-7.62" width="0.1524" layer="91"/>
@@ -17663,12 +17663,12 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$59" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
+<pinref part="IC1" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
 <wire x1="-99.06" y1="45.72" x2="-101.6" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="45.72" x2="-101.6" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="48.26" x2="-104.14" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="2"/>
+<pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="-104.14" y1="48.26" x2="-106.68" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="45.72" x2="-104.14" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-104.14" y="48.26"/>
@@ -17676,12 +17676,12 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$60" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+<pinref part="IC1" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
 <wire x1="-99.06" y1="40.64" x2="-101.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="40.64" x2="-101.6" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="38.1" x2="-104.14" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="1"/>
+<pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="-104.14" y1="38.1" x2="-106.68" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="40.64" x2="-104.14" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-104.14" y="38.1"/>
@@ -17689,7 +17689,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="SENSOR" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="PD2(INT0)"/>
+<pinref part="IC1" gate="G$1" pin="PD2(INT0)"/>
 <wire x1="-50.8" y1="35.56" x2="-40.64" y2="35.56" width="0.1524" layer="91"/>
 <label x="-40.64" y="35.56" size="1.778" layer="95"/>
 </segment>
@@ -17702,13 +17702,13 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="VIN"/>
+<pinref part="IC2" gate="G$1" pin="VIN"/>
 <wire x1="-195.58" y1="7.62" x2="-198.12" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-198.12" y1="7.62" x2="-205.74" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-205.74" y1="7.62" x2="-210.82" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-210.82" y1="7.62" x2="-215.9" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-215.9" y1="7.62" x2="-215.9" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="-198.12" y1="5.08" x2="-198.12" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-198.12" y="7.62"/>
 <pinref part="C12" gate="G$1" pin="+"/>
@@ -17717,7 +17717,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="C11" gate="G$1" pin="+"/>
 <wire x1="-210.82" y1="5.08" x2="-210.82" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-210.82" y="7.62"/>
-<pinref part="C10" gate="G$1" pin="+"/>
+<pinref part="C13" gate="G$1" pin="+"/>
 <wire x1="-205.74" y1="5.08" x2="-205.74" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-205.74" y="7.62"/>
 <pinref part="SUPPLY9" gate="+12V" pin="+12V"/>
@@ -17725,56 +17725,56 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="SWITCH1" class="0">
 <segment>
-<pinref part="S2" gate="1" pin="S"/>
+<pinref part="A" gate="1" pin="S"/>
 <wire x1="-203.2" y1="68.58" x2="-200.66" y2="68.58" width="0.1524" layer="91"/>
 <label x="-200.66" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="PB0(ICP)"/>
+<pinref part="IC1" gate="G$1" pin="PB0(ICP)"/>
 <wire x1="-50.8" y1="17.78" x2="-43.18" y2="17.78" width="0.1524" layer="91"/>
 <label x="-43.18" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWITCH2" class="0">
 <segment>
-<pinref part="S3" gate="1" pin="S"/>
+<pinref part="B" gate="1" pin="S"/>
 <wire x1="-203.2" y1="55.88" x2="-200.66" y2="55.88" width="0.1524" layer="91"/>
 <label x="-200.66" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="PB1(OC1A)"/>
+<pinref part="IC1" gate="G$1" pin="PB1(OC1A)"/>
 <wire x1="-50.8" y1="15.24" x2="-43.18" y2="15.24" width="0.1524" layer="91"/>
 <label x="-43.18" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWITCH3" class="0">
 <segment>
-<pinref part="S4" gate="1" pin="S"/>
+<pinref part="C" gate="1" pin="S"/>
 <wire x1="-203.2" y1="43.18" x2="-200.66" y2="43.18" width="0.1524" layer="91"/>
 <label x="-200.66" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="PB2(SS/OC1B)"/>
+<pinref part="IC1" gate="G$1" pin="PB2(SS/OC1B)"/>
 <wire x1="-50.8" y1="12.7" x2="-43.18" y2="12.7" width="0.1524" layer="91"/>
 <label x="-43.18" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="LED25" gate="G$1" pin="A"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="DIAG" gate="G$1" pin="A"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-144.78" y1="0" x2="-144.78" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIAG" class="0">
 <segment>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-144.78" y1="12.7" x2="-144.78" y2="17.78" width="0.1524" layer="91"/>
 <label x="-144.78" y="17.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="PB5(SCK)"/>
-<pinref part="U$1" gate="G$1" pin="SCK"/>
+<pinref part="IC1" gate="G$1" pin="PB5(SCK)"/>
+<pinref part="ICSP" gate="G$1" pin="SCK"/>
 <wire x1="-50.8" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="5.08" x2="-22.86" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="5.08" x2="-43.18" y2="2.54" width="0.1524" layer="91"/>
@@ -17786,7 +17786,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <segment>
 <wire x1="-48.26" y1="55.88" x2="-40.64" y2="55.88" width="0.1524" layer="91"/>
 <label x="-40.64" y="55.88" size="1.778" layer="95"/>
-<pinref part="IC4" gate="G$1" pin="PC3(ADC3)"/>
+<pinref part="IC1" gate="G$1" pin="PC3(ADC3)"/>
 <wire x1="-50.8" y1="55.88" x2="-48.26" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -17905,7 +17905,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="QA"/>
+<pinref part="IC3" gate="A" pin="QA"/>
 <pinref part="RN1" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <junction x="78.74" y="83.82"/>
@@ -17913,7 +17913,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="QB"/>
+<pinref part="IC3" gate="A" pin="QB"/>
 <pinref part="RN1" gate="G$1" pin="7"/>
 <wire x1="71.12" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <junction x="78.74" y="81.28"/>
@@ -17921,7 +17921,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="QC"/>
+<pinref part="IC3" gate="A" pin="QC"/>
 <pinref part="RN1" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <junction x="78.74" y="78.74"/>
@@ -17929,7 +17929,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="QD"/>
+<pinref part="IC3" gate="A" pin="QD"/>
 <pinref part="RN1" gate="G$1" pin="5"/>
 <wire x1="71.12" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
 <junction x="78.74" y="76.2"/>
@@ -17973,7 +17973,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="QE"/>
+<pinref part="IC3" gate="A" pin="QE"/>
 <pinref part="RN2" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <junction x="78.74" y="73.66"/>
@@ -17981,7 +17981,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="QF"/>
+<pinref part="IC3" gate="A" pin="QF"/>
 <pinref part="RN2" gate="G$1" pin="7"/>
 <wire x1="71.12" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 <junction x="78.74" y="71.12"/>
@@ -17989,7 +17989,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="QG"/>
+<pinref part="IC3" gate="A" pin="QG"/>
 <pinref part="RN2" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <junction x="78.74" y="68.58"/>
@@ -17997,7 +17997,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="QH"/>
+<pinref part="IC3" gate="A" pin="QH"/>
 <pinref part="RN2" gate="G$1" pin="5"/>
 <wire x1="71.12" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
 <junction x="78.74" y="66.04"/>
@@ -18041,7 +18041,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="QA"/>
+<pinref part="IC4" gate="A" pin="QA"/>
 <pinref part="RN3" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <junction x="78.74" y="38.1"/>
@@ -18049,7 +18049,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="QB"/>
+<pinref part="IC4" gate="A" pin="QB"/>
 <pinref part="RN3" gate="G$1" pin="7"/>
 <wire x1="71.12" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <junction x="78.74" y="35.56"/>
@@ -18057,7 +18057,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="QC"/>
+<pinref part="IC4" gate="A" pin="QC"/>
 <pinref part="RN3" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <junction x="78.74" y="33.02"/>
@@ -18065,7 +18065,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="QD"/>
+<pinref part="IC4" gate="A" pin="QD"/>
 <pinref part="RN3" gate="G$1" pin="5"/>
 <wire x1="71.12" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 <junction x="78.74" y="30.48"/>
@@ -18109,7 +18109,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="QE"/>
+<pinref part="IC4" gate="A" pin="QE"/>
 <pinref part="RN4" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
 <junction x="78.74" y="27.94"/>
@@ -18117,7 +18117,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="QF"/>
+<pinref part="IC4" gate="A" pin="QF"/>
 <pinref part="RN4" gate="G$1" pin="7"/>
 <wire x1="71.12" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
 <junction x="78.74" y="25.4"/>
@@ -18125,7 +18125,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="QG"/>
+<pinref part="IC4" gate="A" pin="QG"/>
 <pinref part="RN4" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
 <junction x="78.74" y="22.86"/>
@@ -18133,7 +18133,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="QH"/>
+<pinref part="IC4" gate="A" pin="QH"/>
 <pinref part="RN4" gate="G$1" pin="5"/>
 <wire x1="71.12" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
 <junction x="78.74" y="20.32"/>
@@ -18177,7 +18177,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="QA"/>
+<pinref part="IC5" gate="A" pin="QA"/>
 <pinref part="RN5" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="-7.62" x2="78.74" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="78.74" y="-7.62"/>
@@ -18185,7 +18185,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="QB"/>
+<pinref part="IC5" gate="A" pin="QB"/>
 <pinref part="RN5" gate="G$1" pin="7"/>
 <wire x1="71.12" y1="-10.16" x2="78.74" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="78.74" y="-10.16"/>
@@ -18193,7 +18193,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$47" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="QC"/>
+<pinref part="IC5" gate="A" pin="QC"/>
 <pinref part="RN5" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="-12.7" x2="78.74" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="78.74" y="-12.7"/>
@@ -18201,7 +18201,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="QD"/>
+<pinref part="IC5" gate="A" pin="QD"/>
 <pinref part="RN5" gate="G$1" pin="5"/>
 <wire x1="71.12" y1="-15.24" x2="78.74" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="78.74" y="-15.24"/>
@@ -18245,7 +18245,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$53" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="QE"/>
+<pinref part="IC5" gate="A" pin="QE"/>
 <pinref part="RN6" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="-17.78" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="78.74" y="-17.78"/>
@@ -18253,7 +18253,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$54" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="QF"/>
+<pinref part="IC5" gate="A" pin="QF"/>
 <pinref part="RN6" gate="G$1" pin="7"/>
 <wire x1="71.12" y1="-20.32" x2="78.74" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="78.74" y="-20.32"/>
@@ -18261,7 +18261,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$55" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="QG"/>
+<pinref part="IC5" gate="A" pin="QG"/>
 <pinref part="RN6" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="-22.86" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="78.74" y="-22.86"/>
@@ -18269,7 +18269,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </net>
 <net name="N$56" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="QH"/>
+<pinref part="IC5" gate="A" pin="QH"/>
 <pinref part="RN6" gate="G$1" pin="5"/>
 <wire x1="71.12" y1="-25.4" x2="78.74" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="78.74" y="-25.4"/>
@@ -18482,7 +18482,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="35.56" y="-96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="PC4(ADC4/SDA)"/>
+<pinref part="IC1" gate="G$1" pin="PC4(ADC4/SDA)"/>
 <wire x1="-50.8" y1="53.34" x2="-40.64" y2="53.34" width="0.1524" layer="91"/>
 <label x="-40.64" y="53.34" size="1.778" layer="95"/>
 </segment>
@@ -18499,22 +18499,22 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="33.02" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="G"/>
+<pinref part="IC5" gate="A" pin="G"/>
 <wire x1="45.72" y1="-22.86" x2="40.64" y2="-22.86" width="0.1524" layer="91"/>
 <label x="33.02" y="-22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="G"/>
+<pinref part="IC4" gate="A" pin="G"/>
 <wire x1="45.72" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 <label x="33.02" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="A" pin="G"/>
+<pinref part="IC3" gate="A" pin="G"/>
 <wire x1="45.72" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
 <label x="33.02" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="PD6(AIN0)"/>
+<pinref part="IC1" gate="G$1" pin="PD6(AIN0)"/>
 <wire x1="-50.8" y1="25.4" x2="-40.64" y2="25.4" width="0.1524" layer="91"/>
 <label x="-40.64" y="25.4" size="1.778" layer="95"/>
 </segment>
