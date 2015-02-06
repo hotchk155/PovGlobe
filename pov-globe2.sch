@@ -17195,6 +17195,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-129.54" y1="43.18" x2="-132.08" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-132.08" y="43.18"/>
+<junction x="-99.06" y="55.88"/>
+<junction x="-99.06" y="27.94"/>
+<junction x="-99.06" y="25.4"/>
+<junction x="7.62" y="7.62"/>
+<junction x="-12.7" y="43.18"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="+5V" pin="+5V"/>
@@ -17207,6 +17212,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="-175.26" y="50.8"/>
 <pinref part="S1" gate="G$1" pin="VCC"/>
 <wire x1="-170.18" y1="45.72" x2="-165.1" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-175.26" y="48.26"/>
+<junction x="-165.1" y="45.72"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="+5V" pin="+5V"/>
@@ -17221,6 +17228,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="-160.02" y="7.62"/>
 <pinref part="IC2" gate="A1" pin="VO"/>
 <wire x1="-172.72" y1="7.62" x2="-170.18" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-160.02" y="5.08"/>
+<junction x="-167.64" y="5.08"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="VCC"/>
@@ -17251,6 +17260,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="SUPPLY15" gate="+5V" pin="+5V"/>
 <wire x1="73.66" y1="50.8" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
 <junction x="73.66" y="48.26"/>
+<junction x="40.64" y="48.26"/>
+<junction x="45.72" y="33.02"/>
+<junction x="71.12" y="40.64"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="A" pin="VCC"/>
@@ -17345,6 +17357,14 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="-119.38" y="58.42"/>
 <pinref part="RESET" gate="1" pin="P"/>
 <wire x1="-119.38" y1="76.2" x2="-116.84" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-116.84" y="76.2"/>
+<junction x="-99.06" y="58.42"/>
+<junction x="-99.06" y="33.02"/>
+<junction x="-99.06" y="30.48"/>
+<junction x="-119.38" y="-10.16"/>
+<junction x="7.62" y="2.54"/>
+<junction x="-12.7" y="48.26"/>
+<junction x="-12.7" y="45.72"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="GND"/>
@@ -17356,6 +17376,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-175.26" y1="38.1" x2="-175.26" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="38.1" x2="-175.26" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-175.26" y="38.1"/>
+<junction x="-175.26" y="40.64"/>
+<junction x="-165.1" y="43.18"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
@@ -17387,6 +17409,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="-198.12" y="-7.62"/>
 <pinref part="IC2" gate="A1" pin="GND"/>
 <wire x1="-182.88" y1="0" x2="-182.88" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-167.64" y="-2.54"/>
+<junction x="-160.02" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="C" gate="1" pin="P"/>
@@ -17401,11 +17425,15 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <wire x1="-218.44" y1="35.56" x2="-218.44" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-218.44" y="43.18"/>
+<junction x="-213.36" y="68.58"/>
+<junction x="-213.36" y="55.88"/>
+<junction x="-213.36" y="43.18"/>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <pinref part="DIAG" gate="G$1" pin="C"/>
 <wire x1="-144.78" y1="-10.16" x2="-144.78" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-144.78" y="-7.62"/>
 </segment>
 <segment>
 <pinref part="39" gate="G$1" pin="P$2"/>
@@ -17467,6 +17495,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 <wire x1="30.48" y1="15.24" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 <junction x="30.48" y="17.78"/>
+<junction x="33.02" y="48.26"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="A" pin="GND"/>
@@ -17683,6 +17712,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC4" gate="A" pin="RCK"/>
 <wire x1="45.72" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 <label x="33.02" y="27.94" size="1.778" layer="95"/>
+<junction x="45.72" y="27.94"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="A" pin="RCK"/>
@@ -17716,6 +17746,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC4" gate="A" pin="SCK"/>
 <wire x1="45.72" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
 <label x="33.02" y="35.56" size="1.778" layer="95"/>
+<junction x="45.72" y="35.56"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="A" pin="SCK"/>
@@ -17744,6 +17775,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC4" gate="A" pin="SER"/>
 <wire x1="45.72" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 <label x="33.02" y="40.64" size="1.778" layer="95"/>
+<junction x="45.72" y="40.64"/>
 </segment>
 </net>
 <net name="SER3" class="0">
@@ -17777,6 +17809,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC1" gate="G$1" pin="PD1(TXD)"/>
 <pinref part="SERIALPROG" gate="A" pin="2"/>
 <wire x1="-50.8" y1="38.1" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-12.7" y="38.1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -17784,6 +17817,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC1" gate="G$1" pin="PD0(RXD)"/>
 <pinref part="SERIALPROG" gate="A" pin="3"/>
 <wire x1="-50.8" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-12.7" y="40.64"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -17791,6 +17825,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC1" gate="G$1" pin="PB4(MISO)"/>
 <pinref part="ICSP" gate="G$1" pin="MISO"/>
 <wire x1="-50.8" y1="7.62" x2="-22.86" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-22.86" y="7.62"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -17802,6 +17837,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="ICSP" gate="G$1" pin="MOSI"/>
 <wire x1="10.16" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
+<junction x="7.62" y="5.08"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -17822,6 +17858,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-106.68" y1="76.2" x2="-101.6" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="76.2" x2="-101.6" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-101.6" y="63.5"/>
+<junction x="-106.68" y="76.2"/>
+<junction x="-99.06" y="63.5"/>
+<junction x="-22.86" y="2.54"/>
+<junction x="-12.7" y="35.56"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -17835,6 +17875,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-104.14" y1="48.26" x2="-106.68" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="45.72" x2="-104.14" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-104.14" y="48.26"/>
+<junction x="-99.06" y="45.72"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -17848,6 +17889,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-104.14" y1="38.1" x2="-106.68" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="40.64" x2="-104.14" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-104.14" y="38.1"/>
+<junction x="-99.06" y="40.64"/>
 </segment>
 </net>
 <net name="SENSOR" class="0">
@@ -17861,6 +17903,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-167.64" y1="40.64" x2="-165.1" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="40.64" x2="-167.64" y2="33.02" width="0.1524" layer="91"/>
 <label x="-167.64" y="33.02" size="1.778" layer="95"/>
+<junction x="-165.1" y="40.64"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -17892,6 +17935,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="A" gate="1" pin="S"/>
 <wire x1="-203.2" y1="68.58" x2="-200.66" y2="68.58" width="0.1524" layer="91"/>
 <label x="-200.66" y="68.58" size="1.778" layer="95"/>
+<junction x="-203.2" y="68.58"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB0(ICP)"/>
@@ -17904,6 +17948,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="B" gate="1" pin="S"/>
 <wire x1="-203.2" y1="55.88" x2="-200.66" y2="55.88" width="0.1524" layer="91"/>
 <label x="-200.66" y="55.88" size="1.778" layer="95"/>
+<junction x="-203.2" y="55.88"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB1(OC1A)"/>
@@ -17916,6 +17961,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="C" gate="1" pin="S"/>
 <wire x1="-203.2" y1="43.18" x2="-200.66" y2="43.18" width="0.1524" layer="91"/>
 <label x="-200.66" y="43.18" size="1.778" layer="95"/>
+<junction x="-203.2" y="43.18"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB2(SS/OC1B)"/>
@@ -17928,6 +17974,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="DIAG" gate="G$1" pin="A"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-144.78" y1="0" x2="-144.78" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-144.78" y="2.54"/>
+<junction x="-144.78" y="0"/>
 </segment>
 </net>
 <net name="DIAG" class="0">
@@ -17935,6 +17983,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-144.78" y1="12.7" x2="-144.78" y2="17.78" width="0.1524" layer="91"/>
 <label x="-144.78" y="17.78" size="1.778" layer="95" rot="R90"/>
+<junction x="-144.78" y="12.7"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB5(SCK)"/>
@@ -17944,6 +17993,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-43.18" y1="5.08" x2="-43.18" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-43.18" y="5.08"/>
 <label x="-43.18" y="0" size="1.778" layer="95"/>
+<junction x="-22.86" y="5.08"/>
 </segment>
 </net>
 <net name="SER4" class="0">
@@ -18209,6 +18259,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="RN3" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <junction x="78.74" y="38.1"/>
+<junction x="71.12" y="38.1"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -18217,6 +18268,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="RN3" gate="G$1" pin="7"/>
 <wire x1="71.12" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <junction x="78.74" y="35.56"/>
+<junction x="71.12" y="35.56"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -18225,6 +18277,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="RN3" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <junction x="78.74" y="33.02"/>
+<junction x="71.12" y="33.02"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -18233,6 +18286,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="RN3" gate="G$1" pin="5"/>
 <wire x1="71.12" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 <junction x="78.74" y="30.48"/>
+<junction x="71.12" y="30.48"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -18277,6 +18331,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="RN4" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
 <junction x="78.74" y="27.94"/>
+<junction x="71.12" y="27.94"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -18285,6 +18340,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="RN4" gate="G$1" pin="7"/>
 <wire x1="71.12" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
 <junction x="78.74" y="25.4"/>
+<junction x="71.12" y="25.4"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -18293,6 +18349,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="RN4" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
 <junction x="78.74" y="22.86"/>
+<junction x="71.12" y="22.86"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -18671,6 +18728,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC4" gate="A" pin="G"/>
 <wire x1="45.72" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 <label x="33.02" y="22.86" size="1.778" layer="95"/>
+<junction x="45.72" y="22.86"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="G"/>
@@ -18688,25 +18746,15 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </sheets>
 <errors>
 <approved hash="102,1,-165.1,45.72,VCC,+5V,,,,"/>
-<approved hash="104,1,-99.06,27.94,IC4,VCC,+5V,,,"/>
-<approved hash="104,1,-99.06,25.4,IC4,VCC,+5V,,,"/>
-<approved hash="104,1,-99.06,53.34,IC4,AVCC,+5V,,,"/>
-<approved hash="104,1,7.62,7.62,U$1,VCC,+5V,,,"/>
-<approved hash="104,1,71.12,86.36,IC1,VCC,+5V,,,"/>
-<approved hash="104,1,71.12,40.64,IC2,VCC,+5V,,,"/>
-<approved hash="104,1,71.12,-5.08,IC3,VCC,+5V,,,"/>
+<approved hash="104,1,-99.06,27.94,IC1,VCC,+5V,,,"/>
+<approved hash="104,1,-99.06,25.4,IC1,VCC,+5V,,,"/>
+<approved hash="104,1,-99.06,53.34,IC1,AVCC,+5V,,,"/>
+<approved hash="104,1,7.62,7.62,ICSP,VCC,+5V,,,"/>
+<approved hash="104,1,71.12,86.36,IC3,VCC,+5V,,,"/>
+<approved hash="104,1,71.12,40.64,IC4,VCC,+5V,,,"/>
+<approved hash="104,1,71.12,-5.08,IC5,VCC,+5V,,,"/>
 <approved hash="104,1,71.12,-50.8,IC6,VCC,+5V,,,"/>
 <approved hash="104,1,71.12,-96.52,IC7,VCC,+5V,,,"/>
-<approved hash="208,1,-132.08,66.04,+5V,sup,,,,"/>
-<approved hash="208,1,-175.26,68.58,+5V,sup,,,,"/>
-<approved hash="208,1,-165.1,45.72,+5V,sup,,,,"/>
-<approved hash="208,1,-170.18,7.62,+5V,out,,,,"/>
-<approved hash="208,1,-160.02,15.24,+5V,sup,,,,"/>
-<approved hash="208,1,73.66,96.52,+5V,sup,,,,"/>
-<approved hash="208,1,73.66,50.8,+5V,sup,,,,"/>
-<approved hash="208,1,73.66,5.08,+5V,sup,,,,"/>
-<approved hash="208,1,73.66,-40.64,+5V,sup,,,,"/>
-<approved hash="208,1,73.66,-86.36,+5V,sup,,,,"/>
 <approved hash="111,1,101.6,83.82,GND,,,,,"/>
 <approved hash="111,1,96.52,83.82,N$1,,,,,"/>
 <approved hash="111,1,101.6,81.28,GND,,,,,"/>
@@ -18787,26 +18835,23 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <approved hash="111,1,96.52,-114.3,N$74,,,,,"/>
 <approved hash="111,1,101.6,-116.84,GND,,,,,"/>
 <approved hash="111,1,96.52,-116.84,N$65,,,,,"/>
-<approved hash="115,1,-12.4629,40.5088,JP1,,,,,"/>
-<approved hash="115,1,-104.881,43.18,Q1,,,,,"/>
-<approved hash="115,1,-110.49,49.9313,C4,,,,,"/>
-<approved hash="115,1,-110.49,39.7713,C5,,,,,"/>
+<approved hash="115,1,-8.23571,40.5088,SERIALPROG,,,,,"/>
+<approved hash="115,1,-104.881,43.18,X1,,,,,"/>
+<approved hash="115,1,-110.49,49.9313,C9,,,,,"/>
+<approved hash="115,1,-110.49,40.4809,C10,,,,,"/>
 <approved hash="115,1,-125.73,44.8513,C6,,,,,"/>
-<approved hash="115,1,-176.931,44.45,C7,,,,,"/>
-<approved hash="115,1,-168.635,58.42,R25,,,,,"/>
+<approved hash="115,1,-177.641,44.45,C15,,,,,"/>
 <approved hash="115,1,-169.311,1.27,C8,,,,,"/>
-<approved hash="115,1,-199.791,1.27,C9,,,,,"/>
-<approved hash="115,1,-203.672,1.27,C10,,,,,"/>
+<approved hash="115,1,-199.791,1.27,C7,,,,,"/>
+<approved hash="115,1,-203.672,1.27,C13,,,,,"/>
 <approved hash="115,1,-208.846,1.27,C11,,,,,"/>
 <approved hash="115,1,-213.832,1.27,C12,,,,,"/>
-<approved hash="115,1,-157.952,1.27,C13,,,,,"/>
-<approved hash="115,1,-208.28,70.7305,S2,,,,,"/>
-<approved hash="115,1,-208.28,58.0305,S3,,,,,"/>
-<approved hash="115,1,-208.28,45.3305,S4,,,,,"/>
-<approved hash="115,1,-144.458,-3.81,LED25,,,,,"/>
-<approved hash="115,1,-143.785,7.62,R26,,,,,"/>
-<approved hash="115,1,-227.199,9.92293,JP2,,,,,"/>
-<approved hash="115,1,-230.001,0.237066,JP3,,,,,"/>
+<approved hash="115,1,-157.952,1.27,C14,,,,,"/>
+<approved hash="115,1,-208.28,70.7305,A,,,,,"/>
+<approved hash="115,1,-208.28,58.0305,B,,,,,"/>
+<approved hash="115,1,-208.28,45.3305,C,,,,,"/>
+<approved hash="115,1,-144.458,-3.81,DIAG,,,,,"/>
+<approved hash="115,1,-143.785,7.62,R1,,,,,"/>
 <approved hash="115,1,86.36,81.5128,RN1,,,,,"/>
 <approved hash="115,1,86.36,71.3528,RN2,,,,,"/>
 <approved hash="115,1,36.83,95.6513,C1,,,,,"/>
@@ -18818,10 +18863,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <approved hash="115,1,36.83,4.2113,C3,,,,,"/>
 <approved hash="115,1,86.36,-55.6472,RN7,,,,,"/>
 <approved hash="115,1,86.36,-65.8072,RN8,,,,,"/>
-<approved hash="115,1,36.83,-40.7991,C14,,,,,"/>
+<approved hash="115,1,36.83,-41.5087,C4,,,,,"/>
 <approved hash="115,1,86.36,-101.367,RN9,,,,,"/>
 <approved hash="115,1,86.36,-111.527,RN10,,,,,"/>
-<approved hash="115,1,36.83,-86.5191,C15,,,,,"/>
+<approved hash="115,1,36.83,-87.2287,C5,,,,,"/>
 <approved hash="115,1,-111.76,78.3505,RESET,,,,,"/>
 </errors>
 </schematic>
