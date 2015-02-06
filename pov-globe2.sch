@@ -14590,12 +14590,19 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="47"/>
 <wire x1="0" y1="-0.635" x2="0.635" y2="-0.635" width="0.127" layer="47"/>
 <smd name="C" x="-3.175" y="0" dx="3.81" dy="1.905" layer="16" roundness="40"/>
-<text x="-5.715" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-6.985" y="-0.635" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <wire x1="-2.54" y1="1.27" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="1.27" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-1.27" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="0" x2="-6.35" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="0" x2="-6.35" y2="0" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="1.27" x2="-0.635" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-0.635" y1="1.27" x2="-0.635" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-0.635" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.127" layer="22"/>
 </package>
 </packages>
 <symbols>
