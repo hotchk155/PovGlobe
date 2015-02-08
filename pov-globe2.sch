@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17411,6 +17411,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-182.88" y1="0" x2="-182.88" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="-167.64" y="-2.54"/>
 <junction x="-160.02" y="-2.54"/>
+<junction x="-182.88" y="0"/>
 </segment>
 <segment>
 <pinref part="C" gate="1" pin="P"/>
@@ -18835,39 +18836,39 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <approved hash="111,1,96.52,-114.3,N$74,,,,,"/>
 <approved hash="111,1,101.6,-116.84,GND,,,,,"/>
 <approved hash="111,1,96.52,-116.84,N$65,,,,,"/>
-<approved hash="115,1,-8.23571,40.5088,SERIALPROG,,,,,"/>
-<approved hash="115,1,-104.881,43.18,X1,,,,,"/>
-<approved hash="115,1,-110.49,49.9313,C9,,,,,"/>
-<approved hash="115,1,-110.49,40.4809,C10,,,,,"/>
-<approved hash="115,1,-125.73,44.8513,C6,,,,,"/>
-<approved hash="115,1,-177.641,44.45,C15,,,,,"/>
-<approved hash="115,1,-169.311,1.27,C8,,,,,"/>
-<approved hash="115,1,-199.791,1.27,C7,,,,,"/>
-<approved hash="115,1,-203.672,1.27,C13,,,,,"/>
-<approved hash="115,1,-208.846,1.27,C11,,,,,"/>
-<approved hash="115,1,-213.832,1.27,C12,,,,,"/>
-<approved hash="115,1,-157.952,1.27,C14,,,,,"/>
-<approved hash="115,1,-208.28,70.7305,A,,,,,"/>
-<approved hash="115,1,-208.28,58.0305,B,,,,,"/>
-<approved hash="115,1,-208.28,45.3305,C,,,,,"/>
-<approved hash="115,1,-144.458,-3.81,DIAG,,,,,"/>
-<approved hash="115,1,-143.785,7.62,R1,,,,,"/>
-<approved hash="115,1,86.36,81.5128,RN1,,,,,"/>
-<approved hash="115,1,86.36,71.3528,RN2,,,,,"/>
-<approved hash="115,1,36.83,95.6513,C1,,,,,"/>
-<approved hash="115,1,86.36,35.7928,RN3,,,,,"/>
-<approved hash="115,1,86.36,25.6328,RN4,,,,,"/>
-<approved hash="115,1,36.83,49.9313,C2,,,,,"/>
-<approved hash="115,1,86.36,-9.92717,RN5,,,,,"/>
-<approved hash="115,1,86.36,-20.0872,RN6,,,,,"/>
-<approved hash="115,1,36.83,4.2113,C3,,,,,"/>
-<approved hash="115,1,86.36,-55.6472,RN7,,,,,"/>
-<approved hash="115,1,86.36,-65.8072,RN8,,,,,"/>
-<approved hash="115,1,36.83,-41.5087,C4,,,,,"/>
-<approved hash="115,1,86.36,-101.367,RN9,,,,,"/>
-<approved hash="115,1,86.36,-111.527,RN10,,,,,"/>
-<approved hash="115,1,36.83,-87.2287,C5,,,,,"/>
-<approved hash="115,1,-111.76,78.3505,RESET,,,,,"/>
+<approved hash="113,1,-8.23571,40.5088,SERIALPROG,,,,,"/>
+<approved hash="113,1,-104.881,43.18,X1,,,,,"/>
+<approved hash="113,1,-110.49,49.9313,C9,,,,,"/>
+<approved hash="113,1,-110.49,40.4809,C10,,,,,"/>
+<approved hash="113,1,-125.73,44.8513,C6,,,,,"/>
+<approved hash="113,1,-177.641,44.45,C15,,,,,"/>
+<approved hash="113,1,-169.311,1.27,C8,,,,,"/>
+<approved hash="113,1,-199.791,1.27,C7,,,,,"/>
+<approved hash="113,1,-203.672,1.27,C13,,,,,"/>
+<approved hash="113,1,-208.846,1.27,C11,,,,,"/>
+<approved hash="113,1,-213.832,1.27,C12,,,,,"/>
+<approved hash="113,1,-157.952,1.27,C14,,,,,"/>
+<approved hash="113,1,-208.28,70.7305,A,,,,,"/>
+<approved hash="113,1,-208.28,58.0305,B,,,,,"/>
+<approved hash="113,1,-208.28,45.3305,C,,,,,"/>
+<approved hash="113,1,-144.458,-3.81,DIAG,,,,,"/>
+<approved hash="113,1,-143.785,7.62,R1,,,,,"/>
+<approved hash="113,1,86.36,81.5128,RN1,,,,,"/>
+<approved hash="113,1,86.36,71.3528,RN2,,,,,"/>
+<approved hash="113,1,36.83,95.6513,C1,,,,,"/>
+<approved hash="113,1,86.36,35.7928,RN3,,,,,"/>
+<approved hash="113,1,86.36,25.6328,RN4,,,,,"/>
+<approved hash="113,1,36.83,49.9313,C2,,,,,"/>
+<approved hash="113,1,86.36,-9.92717,RN5,,,,,"/>
+<approved hash="113,1,86.36,-20.0872,RN6,,,,,"/>
+<approved hash="113,1,36.83,4.2113,C3,,,,,"/>
+<approved hash="113,1,86.36,-55.6472,RN7,,,,,"/>
+<approved hash="113,1,86.36,-65.8072,RN8,,,,,"/>
+<approved hash="113,1,36.83,-41.5087,C4,,,,,"/>
+<approved hash="113,1,86.36,-101.367,RN9,,,,,"/>
+<approved hash="113,1,86.36,-111.527,RN10,,,,,"/>
+<approved hash="113,1,36.83,-87.2287,C5,,,,,"/>
+<approved hash="113,1,-111.76,78.3505,RESET,,,,,"/>
 </errors>
 </schematic>
 </drawing>
